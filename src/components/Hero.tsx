@@ -6,11 +6,7 @@ import { TypewriterEffect } from "./ui/typewriter-effect";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export function Hero() {
-    const images = [
-        "https://cdn.wallpapersafari.com/85/93/xrk6v8.png",
-        "https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-10.jpg",
-        "https://wallpaperaccess.com/full/1255680.png",
-    ];
+    const images = ["/one.jpg", "/two.jpg", "/three.webp"];
     const words = [
         {
             text: "Hey",
